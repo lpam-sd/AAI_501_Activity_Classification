@@ -4,7 +4,8 @@
 This project focuses on classifying human activities using sensor data from wearable devices. The dataset contains measurements from various sensors capturing different physical activities performed by multiple subjects.
 
 ## Dataset Description
-- **Source**: Daily and Sports Activities Dataset
+- **Source**: [Daily and Sports Activities Dataset](https://archive.ics.uci.edu/dataset/256/daily+and+sports+activities) [1]
+- **Important**: Download the dataset ZIP file from the source link and save it as `daily_and_sports_activities.zip` in the project root directory
 - **Activities**: 19 different activities including:
   - Sitting
   - Standing
@@ -47,3 +48,20 @@ This project focuses on classifying human activities using sensor data from wear
 - pandas
 - numpy
 - scikit-learn
+
+## Setup Instructions
+1. Download the [Daily and Sports Activities Dataset](https://archive.ics.uci.edu/dataset/256/daily+and+sports+activities) ZIP file
+2. Save the downloaded file as `daily_and_sports_activities.zip` in the project root directory
+3. Install required dependencies:
+   ```bash
+   pip install pandas numpy scikit-learn
+   ```
+4. Run the Jupyter notebook `Activity_Classification.ipynb` to process the data and train the models
+
+## Contributors
+- Evan Scott
+- Deepti
+- Ajmal Jalal
+
+## References
+[1] Barshan, B. & Altun, K. (2010). Daily and Sports Activities [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5C59F.
